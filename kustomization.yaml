@@ -1,4 +1,5 @@
 resources:
-- prod
+- dev
 - staging
-
+- production
+namePrefix: cluster-a-
