@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/onsd/ArgoCD_test.git
     targetRevision: v1.1
-    path: ./production
+    path: production
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
