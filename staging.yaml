@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: staging
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/onsd/ArgoCD_test.git
+    targetRevision: master
+    path: overlay/staging
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: staging
