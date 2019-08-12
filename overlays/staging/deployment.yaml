@@ -4,3 +4,5 @@ metadata:
   name: guestbook-ui
 spec:
   replicas: 2
+  env:
+    state: staging
