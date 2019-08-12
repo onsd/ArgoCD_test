@@ -4,5 +4,4 @@ metadata:
   name: guestbook-ui
 spec:
   replicas: 4
-  env:
-    state: prod
+
