@@ -2,7 +2,7 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: staging-guestbook-ui
-  namepsace: staging
+  namespace: staging
 spec:
   replicas: 2
   revisionHistoryLimit: 3
