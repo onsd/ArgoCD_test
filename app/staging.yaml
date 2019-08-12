@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/onsd/ArgoCD_test.git
     targetRevision: master
-    path: overlay/staging
+    path: overlays/staging
   destination:
     server: https://kubernetes.default.svc
     namespace: staging
