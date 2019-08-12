@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/onsd/ArgoCD_test.git
-    targetRevision: v1.3
+    targetRevision: v1.4
     path: production
   destination:
     server: https://kubernetes.default.svc
